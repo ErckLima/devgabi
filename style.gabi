@@ -1,0 +1,51 @@
+body{
+    background: rgb(226, 131, 147);
+}
+#Cabeçalho{
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 3px 3px 5px rgb(187, 23, 100);
+    color: rgb(255, 255, 255);
+    padding: 0%;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+
+}
+#imggabi{
+    border-radius: 1000px;
+    box-shadow: 1px 1px 100px rgb(14, 14, 14);
+    backdrop-filter: unset;
+    
+}
+#Inicio{
+    display: flex;
+    margin-left: 20px;
+    
+}
+#Wap{
+    padding-left: 25%;
+}
+#Inst{
+    
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #a10747;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
