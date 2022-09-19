@@ -53,10 +53,7 @@
     border-radius: 0.6em;
     color: #000000;
     cursor: pointer;
-    
-    -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center;
+    margin: auto; /*CENTRALIZAR A DIV*/
     font-size: 1rem;
     font-weight: 400;
     line-height: 1;
@@ -96,7 +93,7 @@
   .second:hover {
     background-position: 100px;
   }
-  */
+  
   .third {
     border-color: #cf68e4;
     color: rgb(0, 0, 0);

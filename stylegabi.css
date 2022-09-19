@@ -42,6 +42,9 @@ footer{
     margin: auto; /*CENTRALIZAR A DIV*/
     box-shadow: 5px 5px 10px rgba(253, 253, 253, 0.418); /*SOMBRA DA DIV*/
     text-align: center;
-    opacity: 0.3;
+    opacity: 0.5;
     color: black;
+}
+#botoes{
+    margin: auto; /*CENTRALIZAR A DIV*/
 }
