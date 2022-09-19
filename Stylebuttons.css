@@ -36,6 +36,10 @@
     display: block;
     width: 100%;
     text-align: center;
+    margin: auto; /*CENTRALIZAR A DIV*/
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
   } 
   
  

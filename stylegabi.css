@@ -11,12 +11,14 @@ body{
 footer{
     text-align: center;
     font-style: italic;
+    margin: auto; /*CENTRALIZAR A DIV*/
 
 }
 #imggabi{
     border-radius: 1000px;
     box-shadow: 1px 1px 100px rgb(14, 14, 14);
     backdrop-filter: unset;
+    margin: auto; /*CENTRALIZAR A DIV*/
     
 }
 #Wap{
@@ -33,11 +35,13 @@ footer{
 }
 
 #descrição{
-    background: white; /*COR DE FUNDO DA DIV*/
+    background: rgb(255, 255, 255); /*COR DE FUNDO DA DIV*/
     border-radius: 10px; /*ARREDONDAR BORDAS DA DIV*/
-    padding: 15px; /*ESPAÇAMENTO DO CONTEUDO DA DIV*/
-    width: 500px; /*TAMANHO HORIZONTAL DA DIV*/
+    padding: 1px; /*ESPAÇAMENTO DO CONTEUDO DA DIV*/
+    width: 100%; /*TAMANHO HORIZONTAL DA DIV*/
     margin: auto; /*CENTRALIZAR A DIV*/
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418); /*SOMBRA DA DIV*/
+    box-shadow: 5px 5px 10px rgba(253, 253, 253, 0.418); /*SOMBRA DA DIV*/
     text-align: center;
+    opacity: 0.3;
+    color: black;
 }
