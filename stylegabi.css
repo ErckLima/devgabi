@@ -1,5 +1,6 @@
 body{
-    background: rgb(240, 115, 136);
+    background-image:url(./FotoGabiFocoVinheta.jpg);
+
 }
 #Cabeçalho{
     text-align: center;
@@ -16,7 +17,7 @@ footer{
 }
 #imggabi{
     border-radius: 1000px;
-    box-shadow: 1px 1px 100px rgb(14, 14, 14);
+    box-shadow: 5px 5px 1000px rgb(14, 14, 14);
     backdrop-filter: unset;
     margin: auto; /*CENTRALIZAR A DIV*/
     

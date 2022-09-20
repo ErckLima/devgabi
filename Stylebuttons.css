@@ -45,9 +45,10 @@
  
   .btn {
     box-sizing: border-box;
-    -webkit-appearance: none;
+    /*  -webkit-appearance: none;
        -moz-appearance: none;
-            appearance: none;
+            appearance: none; */
+    
     background-color: transparent;
     border: 2px solid #e74c3c;
     border-radius: 0.6em;
