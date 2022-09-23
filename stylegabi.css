@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'fonteGabi';
+    src: url('GardenParty_PERSONAL_USE_ONLY.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    background-image:url(./FotoGabiFocoVinheta.jpg);
+    background-image:url("data:image/jpeg;base64,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");
 
 }
 #Cabeçalho{
     text-align: center;
-    font-style: oblique;
     text-shadow: 3px 3px 5px rgb(187, 23, 100);
     color: rgb(255, 255, 255);
     padding: 0%;
@@ -14,6 +20,9 @@ footer{
     font-style: italic;
     margin: auto; /*CENTRALIZAR A DIV*/
     color: aliceblue;
+    position:absolute;
+    top: 600px;
+    left: 300px;
 
 }
 #imggabi{
@@ -21,6 +30,10 @@ footer{
     box-shadow: 5px 5px 1000px rgb(14, 14, 14);
     backdrop-filter: unset;
     margin: auto; /*CENTRALIZAR A DIV*/
+    position:absolute;
+    top: 5px;
+    left: 100px;
+
     
 }
 #Wap{
@@ -49,4 +62,29 @@ footer{
 }
 #botoes{
     margin: auto; /*CENTRALIZAR A DIV*/
+}
+#Nome{
+    font-size: 50px;
+    font-style: oblique;
+    margin: auto;
+    font-family: 'fonteGabi', Times, serif;
+    position: absolute;
+    z-index: 0;
+    top: 224px;
+    left: 18%;
+}
+#Desig{
+    position: absolute;
+    z-index: 1;
+    top: 260px;
+    left: 0%;
+    width: 414px;
+    height: 30px;
+    
+}
+section{
+    position: absolute;
+    z-index: 2;
+    top: 300px;
+    left: %;
 }
