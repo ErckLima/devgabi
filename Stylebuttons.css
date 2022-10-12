@@ -107,10 +107,6 @@
     text-align: center;
     box-shadow: 5px 5px 15px rgb(255, 255, 255);
   }
-  .but{
-    /* background-color: #fff; */
-  }
-
   #botoes{
     align-items: center;
     justify-content: center;
